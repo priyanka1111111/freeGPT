@@ -26,7 +26,7 @@ class Completion:
                     "temperature": 0.6,
                     "stream": True,
                     "messages": [
-                        {"role": "system", "content": "You are Ava, an AI assistant."},
+                        {"role": "system", "content": "You are ChatGPT, an Artificial Intelligence created by OpenAI."},
                         {"role": "user", "content": prompt},
                     ],
                 },
